@@ -29,18 +29,3 @@ if st.button("Fetch Contacts"):
     st.dataframe(df)
 
 
-# response = requests.get("https://jsonplaceholder.typicode.com/users")
-
-# users = response.json()
-# # [200] - everything is ok (state code)
-# print(type(users)) 
-
-# for user in users:
-#     print(user["id"])
-#     print(user["name"])
-#     print(user["email"])
-#     print("------------------")
-    
-    
-    
-# streamlit run main.py
